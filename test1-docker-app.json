@@ -1,0 +1,21 @@
+{
+    "family": "test1-docker-app",
+    "containerDefinitions": [
+        {
+            "image": "270763933185.dkr.ecr.eu-central-1.amazonaws.com/lanarep1/test1-docker-app:v_%BUILD_NUMBER%",
+            "name": "test1-docker-app",
+            "cpu": 10,
+            "memory": 256,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 5000,
+                    "hostPort": 8080
+                }
+            ]
+        }
+    ]
+}
+
+
+

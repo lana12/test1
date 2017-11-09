@@ -11,7 +11,7 @@ public class MyRestController {
 	
 	@GetMapping
 	public String helloWorld() {
-		return "Hello World";
+		return "Hello World: 1";
 	}
 
 }
